@@ -109,9 +109,9 @@ Yogesh accessed the site http://petshop.com/pets/reptiles/pythons at 16:20.
 '''
 
 
-username = "Kinari"
-timestamp = "04:50"
-url = "http://petshop.com/pets/mammals/cats"
+# username = "Kinari"
+# timestamp = "04:50"
+# url = "http://petshop.com/pets/mammals/cats"
 
 # TODO: print a log message using the variables above.
 # The message should have the same format as this one:
@@ -138,13 +138,127 @@ name_length = #todo: calculate how long this name is
 driving_license_character_limit = 28
 print(name_length <= driving_license_character_limit
 '''
-given_name = "William"
-middle_names = "Bradley"
-family_name = "Pitt"
-white_space = 2
+# given_name = "William"
+# middle_names = "Bradley"
+# family_name = "Pitt"
+# white_space = 2
 
-driving_license_character_limit = 28
+# driving_license_character_limit = 28
 
-nameLength = len(given_name + middle_names + family_name) + white_space
-print(nameLength)
-print(nameLength <= driving_license_character_limit)
+# nameLength = len(given_name + middle_names + family_name) + white_space
+# print(nameLength)
+# print(nameLength <= driving_license_character_limit)
+
+'''
+In this quiz, you’ll need to change the types of the input and output data in order to get the result you want.
+
+Calculate and print the total sales for the week from the data provided. Print out a string of the form 
+"This week's total sales: 
+xxx", where xxx will be the actual total of all the numbers. 
+You’ll need to change the type of the input data in order to calculate that total.
+
+mon_sales = "121"
+tues_sales = "105"
+wed_sales = "110"
+thurs_sales = "98"
+fri_sales = "95"
+
+#TODO: Print a string with this format: This week's total sales: xxx
+# You will probably need to write some lines of code before the print statement.
+'''
+
+# mon_sales = "121"
+# tues_sales = "105"
+# wed_sales = "110"
+# thurs_sales = "98"
+# fri_sales = "95"
+
+
+# totalSales = (int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales))
+# print(totalSales)
+
+# print('This week\'s total sale is: ' + str(totalSales)) 
+
+# x, y, z = "Orange", "Banana", "Cherry"
+
+# print(x)
+# print(y)
+# print(z)
+
+# print()
+
+# x = y = z = "Orange"
+# print(x)
+# print(y)
+# print(z)
+
+# print()
+
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
+# print()
+
+
+
+# x = "Python"
+# y = "is"
+# z = "awesome"
+# print(x, y, z)
+# print()
+
+
+# x = "Python "
+# y = "is "
+# z = "awesome"
+# print(x + y + z)
+# print()
+
+
+# x = "Python "
+# y = "is "
+# z = "awesome"
+# print(x + y + z)
+# print()
+
+
+# x = 5
+# y = 10
+# print(x + y)
+# print()
+
+
+# x = 5
+# y = "John"
+# print(x + y)
+# print()
+# x = 5
+# y = "John"
+# print(x, y)
+
+# x = "James\' best slang"
+
+# def jamesBest():
+    # global x
+#     x = 'Mathew\'s best Slang'
+#     print("Python is " + x)
+# jamesBest()
+
+# print()
+
+# print("Python is " + x)
+
+# def myGk():
+#   global x
+#   x = "vast"
+#   print("Python is " + x)
+
+# myGk()
+
+# print("Python is " + x)
+
+
+
+
