@@ -50,10 +50,11 @@ if __name__ == '__main__':
     n = int(input().strip())
 if n % 2 == 1:
     print('Weird')
-elif n % 2 == 0 in range(2, 5):
+elif n % 2 == 0 and n in range(2, 5):
     print('Not Weird')
-elif n % 2 == 0 in range(6, 20):
+elif n % 2 == 0 and n > 20:
+    print('Not Weird')
+elif n % 2 == 0 and n in range(6, 20):
     print('Weird')
-elif n % 2 == 0:
-    n > 20
-    print('Not Weird')
+else:
+    print('Weird')
